@@ -1,0 +1,19 @@
+/fs/nexus-scratch/vinu/miniconda3/envs/vinu/lib/python3.8/site-packages/pandas/core/computation/expressions.py:21: UserWarning: Pandas requires version '2.7.3' or newer of 'numexpr' (version '2.7.1' currently installed).
+  from pandas.core.computation.check import NUMEXPR_INSTALLED
+{0: 'walking', 1: 'walking_up', 2: 'walking_down', 3: 'sitting', 4: 'standing', 5: 'laying'}
+Window and overlap is 500 250
+Train data shape is (910597, 6) (910597,)
+Test data shape is (212175, 6) (212175,)
+
+Mean and std of train data is:
+ [ 0.81640219 -0.00801033  0.08515487  0.01963342 -0.00780637 -0.01156356] [0.39930917 0.37366658 0.36295679 0.58037394 0.45235684 0.3488823 ]
+
+Max and min values in train data:
+ [ 2.97454855  4.61555058  5.21828446 17.20252312 22.09909111 28.70622292] [ -6.99405685  -5.35694671  -5.29720065 -17.0649362  -22.10778936
+ -28.65394028]
+
+Discrete data shape:
+torch.Size([10568, 500, 6]) torch.Size([10568]) torch.Size([10568])
+torch.Size([609, 500, 6]) torch.Size([609]) torch.Size([609])
+
+Opening pickle file will give [signal, labels, person_id]
